@@ -5,7 +5,6 @@ import cat.itacademy.barcelonactiva.Gispert.Judith.s04.t02.n01.Repository.IFruit
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
