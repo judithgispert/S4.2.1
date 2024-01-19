@@ -11,10 +11,10 @@ public class Fruit {
     @Column (name = "Name")
     private String name;
     @Column (name = "QuantityKg")
-    private int quantityKg;
+    private float quantityKg;
 
     public Fruit(){}
-    public Fruit (String name, int quantityKg){
+    public Fruit (String name, float quantityKg){
         this.name = name;
         this.quantityKg = quantityKg;
     }
@@ -25,13 +25,13 @@ public class Fruit {
     public String getName(){
         return name;
     }
-    public int getQuantityKg(){
+    public float getQuantityKg(){
         return quantityKg;
     }
     public void setName (String name){
         this.name = name;
     }
-    public void setQuantityKg(int quantityKg){
+    public void setQuantityKg(float quantityKg){
         this.quantityKg = quantityKg;
     }
 
