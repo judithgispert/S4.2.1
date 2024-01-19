@@ -3,8 +3,6 @@ package cat.itacademy.barcelonactiva.Gispert.Judith.s04.t02.n01.Services;
 import cat.itacademy.barcelonactiva.Gispert.Judith.s04.t02.n01.Domain.Fruit;
 import cat.itacademy.barcelonactiva.Gispert.Judith.s04.t02.n01.Repository.IFruitRepo;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
